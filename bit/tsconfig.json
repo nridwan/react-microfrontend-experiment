@@ -1,0 +1,9 @@
+{
+  "extends": "./node_modules/@teambit/react/typescript/tsconfig.json",
+  "include": ["sample-apps/**/*", "types"],
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["jest", "@testing-library/jest-dom"]
+  },
+  "exclude": ["dist"]
+}
